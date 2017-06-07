@@ -416,7 +416,13 @@
 												<h3>Project Description</h3>
 												<div class="row">
 													<div class="col-md-6">
-														<p>Photo mosaic software using <a href="http://easybmp.sourceforge.net/"> EasyBMP</a> [<a href="https://github.com/rhs0266/mosaic">Link</a>]</a></p>
+														<p>Photo mosaic software using <a href="http://easybmp.sourceforge.net/"> EasyBMP</a>. Rearrange several images on grid to express target image. The only constraint is output image will be black and white. Cell images are resources to express each grid of mosaic photo. Target image is our goal. Programming language is C++.</p>
+														<h4>Method 1</h4>
+														<p>Conserve original target image. Change pixel's value from cell image to target image. However, this method don't need many cell images, each cell lose their original feeling.</p>
+														<h4>Method 2</h4>
+														<p>Made a new photo by mixing cell images. For all each cell, average lightness of cell image is equal to target's one. This one need very many cell images for high resolution of output photo.</p>
+
+														<br>[<a href="https://github.com/rhs0266/mosaic">Link</a>]</a></p>
 													</div>
 													<div class="col-md-6">
 														<img src="images/hands-heart.png" alt="">
